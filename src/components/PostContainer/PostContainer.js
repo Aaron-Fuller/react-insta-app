@@ -1,9 +1,15 @@
 import React from "react";
+import DummyData from './dummy-data.js';
 
 function PostContainer() {
     return (
-        <h1>test PostContainer Comp.</h1>
+      <div>
+        <div className="post-list">
+          {DummyData.map(DummyDataFromMap => (
+            <DummyData post={DummyDataFromMap} key={DummyDataFromMap.name} />
+          ))}
+        </div>
+      </div>
     );
-}
-
+  }
 export default PostContainer;

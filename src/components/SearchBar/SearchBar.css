@@ -1,0 +1,52 @@
+.SearchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.logos {
+    padding-left: 30px;
+}
+
+.instaLogo {
+    width: 100px;
+    height: 100px;
+}
+
+.instaWord {
+    width: 200px;
+    height: 100px;
+}
+
+.search {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.icons {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.instaCompass {
+    width: 70px;
+    height: 70px;
+}
+
+.instaHeart {
+    width: 50px;
+    height: 50px;
+}
+
+.instaPerson {
+    width: 50px;
+    height: 50px;
+}

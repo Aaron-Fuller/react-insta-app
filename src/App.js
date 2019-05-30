@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <SearchBar />
         <PostContainer />
-        <CommentSection />
+        <CommentSection /> 
       </header>
     </div>
   );
